@@ -1,0 +1,44 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #3a3a3a, #5c5c5c, #7e7e7e, #a0a0a0, #c2c2c2);
+        }
+
+        #myInput {
+            padding: 10px;
+            font-size: 1.5em;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        #myButton {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+        }
+
+        #display {
+            text-align: center;
+            font-size: 10em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .animated-letter {
+            background: linear-gradient(45deg, transparent, transparent);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: bold;
+            text-shadow: 
+                -3px -3px 3px rgba(255, 255, 255, 0.5), 
+                3px 3px 3px rgba(0, 0, 0, 0.5); 
+        }
+  
